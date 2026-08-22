@@ -8,11 +8,11 @@ A database may be defined as a collection of interrelated data stored together t
 
 # Relational Database Model
 Data stored in Tabular format.
-! Relation - A table is called a Relation.
-! Rows/Tuples/Records
-! Columns/Fields/Attributes
-! Data Items - values stored in a relation.
-! Domain - a pool of values from which the actual values appearing in a give column are drawn.
+- Relation - A table is called a Relation.
+- Rows/Tuples/Records
+- Columns/Fields/Attributes
+- Data Items - values stored in a relation.
+- Domain - a pool of values from which the actual values appearing in a give column are drawn.
 # Degree - Number of columns/attributes in a Relation.
 # Cardinality - Number of tuples in a Relation.
 
