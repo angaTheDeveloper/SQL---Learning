@@ -44,5 +44,39 @@ Data stored in Tabular format.
 foreign key in current table.
 
 ----------------------------------------------------------------------------------------------------
+CRUD operations - CREATE, READ, UPDATE, DELETE
+# DATABASE ARCHITECTURE
+## SINGLE TIER ARCHITECTURE
+- In this basic structure, client, server and database are all on the same machine.
+- user has direct contact with db. ( local db on the device.)
+## TWO TIER ARCHITECTURE
+- user interfaces and application programs are on the client side, integrated with a database on the server.
+- multi-user access
+- No peeping into the database (not exposed to users directly, still prone to risks)
+- faster access
+## THREE TIER ARCHITECTURE
+- widely used, an API layer intermediate to client and the db on the server side.
+- prevents exposing direct data to the public
+- API also ensures authentication - security, scalability, data integrity
 
+# DATA INDEPENDENCE
+## Physical data independence???
+## Logical data independence???
 
+# DATA ABSTRACTION
+## VIEW LEVEL
+## LOGICAL LEVEL
+## PHYSICAL LEVEL
+-----------------------------------------------------------------------------------------------------
+# DATA MODELING AND ENTITY RELATIONSHIP
+### DATA MODELING
+- The visual representation of data and relationship among different data elements.
+- The way you structure the data and set relationship among different elements.
+### DATA MODELS
+- Hierarchical model - Tree-like structure
+- Network model - graph-like structure
+- ER model - logical structure of db using entities, attributes and relationship. ( Rectangle -> Entity, Oval -> Attributes, Diamond -> Relationships)
+- Relational model - organizing in the form a table.
+- Object-oriented Model , etc.
+### ER model
+- weak and strong entity. (double diamond)
